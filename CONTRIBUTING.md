@@ -71,13 +71,13 @@ PatternFly-ng uses npm, webpack and gulp.  With the exception of node.js, all de
 
  - Clone patternfly-ng from github   
    git clone https://github.com/patternfly/patternfly-ng
-   
+
  - Within the patternfly-ng directory, run:   
    npm install
-   
+
 ##### The following commands will help you work with the code:  
- - npm run start:demo (runs a live demo on http://localhost:8001)
  - npm run build - run this before you submit a PR to make sure all tests pass
+ - npm run start:demo (runs a live demo on http://localhost:8001) - npm run build should also have been run at least once before
  - npm run test - run the karma tests
  - npm run reinstall - this clears your npm packages and installs them fresh
 
